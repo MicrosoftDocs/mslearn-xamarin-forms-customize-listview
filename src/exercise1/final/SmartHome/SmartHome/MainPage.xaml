@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:SmartHome"
+             x:Class="SmartHome.MainPage"
+             Title="Contoso Smart Home">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <local:DeviceTemplateSelector x:Key="DeviceSelector" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ListView ItemsSource="{Binding .}" ItemTemplate="{StaticResource DeviceSelector}" HasUnevenRows="True" />
+
+</ContentPage>
