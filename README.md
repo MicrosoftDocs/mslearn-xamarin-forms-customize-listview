@@ -1,7 +1,6 @@
 # Microsoft Learn: Customize Xamarin.Forms ListView
 
-[//]: # (TODO: Link back to Microsoft Learn module.)
-This project contains the source code for the **Customize Xamarin.Forms ListView** Microsoft Learn module.
+This project contains the source code for the [**Customize Xamarin.Forms ListView**](https://docs.microsoft.com/learn/modules/customize-xamarin-forms-listview/) Microsoft Learn module.
 
 # Contributing
 
